@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct WalletMainSubView: View {
+    
+    @State var showingDetail = false
+    
     var body: some View {
         ZStack {
             VStack {
@@ -79,6 +82,21 @@ struct WalletMainSubView: View {
                     .padding()
                 Text("You can buy bitcoin directly from other people using over 300 payment options")
                     .padding()
+            }
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        self.showingDetail.toggle()
+                    }) {
+                        Image(systemName: "message")
+                    }
+                    .padding(.all, 40)
+                    .sheet(isPresented: $showingDetail) {
+                        ChatMainView()
+                    }
+                }
+                Spacer()
             }
         }
     }

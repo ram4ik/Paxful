@@ -24,6 +24,7 @@
 		95D7B105237C10EB00BA6DC8 /* AccountMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B104237C10EB00BA6DC8 /* AccountMainSubView.swift */; };
 		95D7B107237C110000BA6DC8 /* AffiliatesMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B106237C110000BA6DC8 /* AffiliatesMainSubView.swift */; };
 		95D7B109237C110F00BA6DC8 /* NotificationMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */; };
+		95D7B10C237C1E1000BA6DC8 /* ChatMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B10B237C1E1000BA6DC8 /* ChatMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		95D7B104237C10EB00BA6DC8 /* AccountMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMainSubView.swift; sourceTree = "<group>"; };
 		95D7B106237C110000BA6DC8 /* AffiliatesMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliatesMainSubView.swift; sourceTree = "<group>"; };
 		95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMainSubView.swift; sourceTree = "<group>"; };
+		95D7B10B237C1E1000BA6DC8 /* ChatMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		95D7B0EE237C0AFE00BA6DC8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95D7B10A237C1DE100BA6DC8 /* ChatView */,
 				95D7B0EF237C0B1300BA6DC8 /* WalletView.swift */,
 				95D7B0FB237C0FED00BA6DC8 /* WalletSubViews */,
 				95D7B0F1237C0B2300BA6DC8 /* TradesView.swift */,
@@ -154,6 +157,14 @@
 				95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */,
 			);
 			path = NotificationSubViews;
+			sourceTree = "<group>";
+		};
+		95D7B10A237C1DE100BA6DC8 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B10B237C1E1000BA6DC8 /* ChatMainView.swift */,
+			);
+			path = ChatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 				95D7B0FA237C0B6E00BA6DC8 /* MainView.swift in Sources */,
 				95D7B0F4237C0B3100BA6DC8 /* AccountView.swift in Sources */,
 				95D7B101237C10C000BA6DC8 /* WalletMainSubView.swift in Sources */,
+				95D7B10C237C1E1000BA6DC8 /* ChatMainView.swift in Sources */,
 				95D7B0DB237C0AEC00BA6DC8 /* AppDelegate.swift in Sources */,
 				95D7B0DD237C0AEC00BA6DC8 /* SceneDelegate.swift in Sources */,
 				95D7B105237C10EB00BA6DC8 /* AccountMainSubView.swift in Sources */,
