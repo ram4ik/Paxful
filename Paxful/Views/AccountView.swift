@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AccountView.swift
 //  Paxful
 //
 //  Created by ramil on 13.11.2019.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AccountView: View {
     var body: some View {
-        MainView()
+        Text("Account View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AccountView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AccountView()
     }
 }

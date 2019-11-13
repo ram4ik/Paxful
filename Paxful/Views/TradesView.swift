@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TradesView.swift
 //  Paxful
 //
 //  Created by ramil on 13.11.2019.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TradesView: View {
     var body: some View {
-        MainView()
+        Text("Trades View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TradesView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TradesView()
     }
 }

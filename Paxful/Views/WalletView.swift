@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WalletView.swift
 //  Paxful
 //
 //  Created by ramil on 13.11.2019.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WalletView: View {
     var body: some View {
-        MainView()
+        Text("Wallet View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WalletView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WalletView()
     }
 }

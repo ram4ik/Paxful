@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  NotificationsView.swift
 //  Paxful
 //
 //  Created by ramil on 13.11.2019.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct NotificationsView: View {
     var body: some View {
-        MainView()
+        Text("Notification View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct NotificationsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NotificationsView()
     }
 }
