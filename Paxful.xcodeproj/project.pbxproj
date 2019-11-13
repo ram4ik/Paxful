@@ -19,6 +19,11 @@
 		95D7B0F6237C0B4100BA6DC8 /* AffiliateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0F5237C0B4100BA6DC8 /* AffiliateView.swift */; };
 		95D7B0F8237C0B5500BA6DC8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0F7237C0B5500BA6DC8 /* NotificationsView.swift */; };
 		95D7B0FA237C0B6E00BA6DC8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0F9237C0B6E00BA6DC8 /* MainView.swift */; };
+		95D7B101237C10C000BA6DC8 /* WalletMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B100237C10C000BA6DC8 /* WalletMainSubView.swift */; };
+		95D7B103237C10D500BA6DC8 /* TradesMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B102237C10D500BA6DC8 /* TradesMainSubView.swift */; };
+		95D7B105237C10EB00BA6DC8 /* AccountMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B104237C10EB00BA6DC8 /* AccountMainSubView.swift */; };
+		95D7B107237C110000BA6DC8 /* AffiliatesMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B106237C110000BA6DC8 /* AffiliatesMainSubView.swift */; };
+		95D7B109237C110F00BA6DC8 /* NotificationMainSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		95D7B0F5237C0B4100BA6DC8 /* AffiliateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliateView.swift; sourceTree = "<group>"; };
 		95D7B0F7237C0B5500BA6DC8 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		95D7B0F9237C0B6E00BA6DC8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		95D7B100237C10C000BA6DC8 /* WalletMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletMainSubView.swift; sourceTree = "<group>"; };
+		95D7B102237C10D500BA6DC8 /* TradesMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesMainSubView.swift; sourceTree = "<group>"; };
+		95D7B104237C10EB00BA6DC8 /* AccountMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMainSubView.swift; sourceTree = "<group>"; };
+		95D7B106237C110000BA6DC8 /* AffiliatesMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliatesMainSubView.swift; sourceTree = "<group>"; };
+		95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMainSubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +103,57 @@
 			isa = PBXGroup;
 			children = (
 				95D7B0EF237C0B1300BA6DC8 /* WalletView.swift */,
+				95D7B0FB237C0FED00BA6DC8 /* WalletSubViews */,
 				95D7B0F1237C0B2300BA6DC8 /* TradesView.swift */,
+				95D7B0FC237C100100BA6DC8 /* TradesSubViews */,
 				95D7B0F3237C0B3100BA6DC8 /* AccountView.swift */,
+				95D7B0FD237C101400BA6DC8 /* AccountSubViews */,
 				95D7B0F5237C0B4100BA6DC8 /* AffiliateView.swift */,
+				95D7B0FE237C102700BA6DC8 /* AffiliateSubViews */,
 				95D7B0F7237C0B5500BA6DC8 /* NotificationsView.swift */,
+				95D7B0FF237C103500BA6DC8 /* NotificationSubViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		95D7B0FB237C0FED00BA6DC8 /* WalletSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B100237C10C000BA6DC8 /* WalletMainSubView.swift */,
+			);
+			path = WalletSubViews;
+			sourceTree = "<group>";
+		};
+		95D7B0FC237C100100BA6DC8 /* TradesSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B102237C10D500BA6DC8 /* TradesMainSubView.swift */,
+			);
+			path = TradesSubViews;
+			sourceTree = "<group>";
+		};
+		95D7B0FD237C101400BA6DC8 /* AccountSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B104237C10EB00BA6DC8 /* AccountMainSubView.swift */,
+			);
+			path = AccountSubViews;
+			sourceTree = "<group>";
+		};
+		95D7B0FE237C102700BA6DC8 /* AffiliateSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B106237C110000BA6DC8 /* AffiliatesMainSubView.swift */,
+			);
+			path = AffiliateSubViews;
+			sourceTree = "<group>";
+		};
+		95D7B0FF237C103500BA6DC8 /* NotificationSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95D7B108237C110F00BA6DC8 /* NotificationMainSubView.swift */,
+			);
+			path = NotificationSubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,12 +228,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D7B0F6237C0B4100BA6DC8 /* AffiliateView.swift in Sources */,
+				95D7B109237C110F00BA6DC8 /* NotificationMainSubView.swift in Sources */,
+				95D7B107237C110000BA6DC8 /* AffiliatesMainSubView.swift in Sources */,
 				95D7B0FA237C0B6E00BA6DC8 /* MainView.swift in Sources */,
 				95D7B0F4237C0B3100BA6DC8 /* AccountView.swift in Sources */,
+				95D7B101237C10C000BA6DC8 /* WalletMainSubView.swift in Sources */,
 				95D7B0DB237C0AEC00BA6DC8 /* AppDelegate.swift in Sources */,
 				95D7B0DD237C0AEC00BA6DC8 /* SceneDelegate.swift in Sources */,
+				95D7B105237C10EB00BA6DC8 /* AccountMainSubView.swift in Sources */,
 				95D7B0DF237C0AEC00BA6DC8 /* ContentView.swift in Sources */,
 				95D7B0F2237C0B2300BA6DC8 /* TradesView.swift in Sources */,
+				95D7B103237C10D500BA6DC8 /* TradesMainSubView.swift in Sources */,
 				95D7B0F0237C0B1300BA6DC8 /* WalletView.swift in Sources */,
 				95D7B0F8237C0B5500BA6DC8 /* NotificationsView.swift in Sources */,
 			);

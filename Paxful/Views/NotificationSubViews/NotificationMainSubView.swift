@@ -1,5 +1,5 @@
 //
-//  AffiliateView.swift
+//  NotificationMainSubView.swift
 //  Paxful
 //
 //  Created by ramil on 13.11.2019.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct AffiliateView: View {
+struct NotificationMainSubView: View {
     var body: some View {
-        AffiliatesMainSubView()
+        Text("Notification View")
     }
 }
 
-struct AffiliateView_Previews: PreviewProvider {
+struct NotificationMainSubView_Previews: PreviewProvider {
     static var previews: some View {
-        AffiliateView()
+        NotificationMainSubView()
     }
 }

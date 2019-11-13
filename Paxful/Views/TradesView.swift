@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TradesView: View {
     var body: some View {
-        Text("Trades View")
+        TradesMainSubView()
     }
 }
 
