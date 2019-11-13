@@ -9,8 +9,31 @@
 import SwiftUI
 
 struct NotificationMainSubView: View {
+    
+    @State var showingDetail = false
+    
     var body: some View {
-        Text("Notification View")
+        
+        ZStack {
+            VStack {
+                Text("Notification View")
+            }
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        self.showingDetail.toggle()
+                    }) {
+                        Image(systemName: "message")
+                    }
+                    .padding(.all, 40)
+                    .sheet(isPresented: $showingDetail) {
+                        ChatMainView()
+                    }
+                }
+                Spacer()
+            }
+        }
     }
 }
 

@@ -15,15 +15,20 @@ struct TradesMainSubView: View {
     var body: some View {
         ZStack {
             VStack {
+                Spacer()
                 Image(systemName: "plusminus.circle")
+                    .font(.largeTitle)
+                Spacer()
                 Text("Continue to the website to buy and sell bitcoin")
+                    .padding()
                 Text("Trades are currently only available on the Paxful website. Once you begin making transactions, your trade history will be displayed here.")
+                    .padding()
                 Button(action: {
                     
                 }) {
                     Text("GO TO PAXFUL WEBSITE")
                 }
-            }
+            }.padding()
             VStack {
                 HStack {
                     Spacer()

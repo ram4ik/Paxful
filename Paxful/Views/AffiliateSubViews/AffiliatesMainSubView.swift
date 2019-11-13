@@ -9,8 +9,31 @@
 import SwiftUI
 
 struct AffiliatesMainSubView: View {
+    
+    @State var showingDetail = false
+    
     var body: some View {
-        Text("Affiliate View")
+       
+        ZStack {
+            VStack {
+                Text("Affiliates View")
+            }
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        self.showingDetail.toggle()
+                    }) {
+                        Image(systemName: "message")
+                    }
+                    .padding(.all, 40)
+                    .sheet(isPresented: $showingDetail) {
+                        ChatMainView()
+                    }
+                }
+                Spacer()
+            }
+        }
     }
 }
 

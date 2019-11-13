@@ -16,6 +16,7 @@ struct WalletMainSubView: View {
         ZStack {
             VStack {
                 Image(systemName: "cube.box")
+                    .font(.largeTitle)
                     .padding()
                 Text("0 BTC")
                     .padding()
