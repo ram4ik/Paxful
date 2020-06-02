@@ -15,59 +15,64 @@ struct WalletMainSubView: View {
     var body: some View {
         ZStack {
             VStack {
-                Image(systemName: "cube.box")
-                    .font(.largeTitle)
-                    .padding()
-                Text("0 BTC")
-                    .padding()
-                Text("0.00 EUR")
-                    .padding()
-                HStack {
-                    VStack {
-                        Button(action: {
-                            
-                        }) {
-                            ZStack {
-                                Circle()
-                                    .foregroundColor(Color.pink)
-                                    .frame(width: 55, height: 55)
-                                Image(systemName: "icloud.and.arrow.down")
-                                    .foregroundColor(Color.white)
-                            }
+                VStack {
+                    Image(systemName: "cube.box")
+                        .font(.largeTitle)
+                        .padding()
+                    Text("0 BTC")
+                        .padding()
+                    Text("0.00 EUR")
+                        .padding()
+                    HStack {
+                        VStack {
+                            Button(action: {
+                                
+                            }) {
+                                ZStack {
+                                    Circle()
+                                        .foregroundColor(Color("purple"))
+                                        .frame(width: 55, height: 55)
+                                    Image(systemName: "icloud.and.arrow.down")
+                                        .foregroundColor(Color.white)
+                                }
+                            }.padding()
+                            Text("BUY")
                         }.padding()
-                        Text("BUY")
-                    }.padding()
-                    Spacer()
-                    VStack {
-                        Button(action: {
-                            
-                        }) {
-                            ZStack {
-                                Circle()
-                                    .foregroundColor(Color.green)
-                                    .frame(width: 55, height: 55)
-                                Image(systemName: "icloud.and.arrow.up")
-                                    .foregroundColor(Color.white)
-                            }
+                        Spacer()
+                        VStack {
+                            Button(action: {
+                                
+                            }) {
+                                ZStack {
+                                    Circle()
+                                        .foregroundColor(Color("blue"))
+                                        .frame(width: 55, height: 55)
+                                    Image(systemName: "icloud.and.arrow.up")
+                                        .foregroundColor(Color.white)
+                                }
+                            }.padding()
+                            Text("SPEND")
                         }.padding()
-                        Text("SPEND")
-                    }.padding()
-                    Spacer()
-                    VStack {
-                        Button(action: {
-                            
-                        }) {
-                            ZStack {
-                                Circle()
-                                    .foregroundColor(Color.blue)
-                                    .frame(width: 55, height: 55)
-                                Image(systemName: "paperplane")
-                                    .foregroundColor(Color.white)
-                            }
+                        Spacer()
+                        VStack {
+                            Button(action: {
+                                
+                            }) {
+                                ZStack {
+                                    Circle()
+                                        .foregroundColor(Color("green"))
+                                        .frame(width: 55, height: 55)
+                                    Image(systemName: "paperplane")
+                                        .foregroundColor(Color.white)
+                                }
+                            }.padding()
+                            Text("SEND")
                         }.padding()
-                        Text("SEND")
-                    }.padding()
+                    }.padding(.bottom, 40)
                 }
+                .background(Color.gray.opacity(0.1))
+                .cornerRadius(20)
+                .padding()
                 
                 Button(action: {
                     
@@ -75,13 +80,19 @@ struct WalletMainSubView: View {
                     HStack {
                         Image(systemName: "qrcode")
                         Text("Receive Bitcoin")
-                    }
-                }.padding()
-                Text("TRANSACTIONS")
-                    .padding()
+                    }.foregroundColor(.black)
+                }
+                .padding()
+                .background(Color("gray"))
+                .cornerRadius(30)
+                .offset(y: -50)
+                
                 Text("Get started by buying bitcoin on Paxful")
+                    .foregroundColor(.primary)
                     .padding()
                 Text("You can buy bitcoin directly from other people using over 300 payment options")
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.secondary)
                     .padding()
             }
             VStack {
