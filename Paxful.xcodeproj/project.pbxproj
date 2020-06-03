@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952C8BE724877F08008CDD25 /* BuyBitcoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8BE624877F08008CDD25 /* BuyBitcoins.swift */; };
+		952C8BEB24877F76008CDD25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8BEA24877F76008CDD25 /* NetworkManager.swift */; };
 		95D7B0DB237C0AEC00BA6DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0DA237C0AEC00BA6DC8 /* AppDelegate.swift */; };
 		95D7B0DD237C0AEC00BA6DC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0DC237C0AEC00BA6DC8 /* SceneDelegate.swift */; };
 		95D7B0DF237C0AEC00BA6DC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7B0DE237C0AEC00BA6DC8 /* ContentView.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		952C8BE624877F08008CDD25 /* BuyBitcoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyBitcoins.swift; sourceTree = "<group>"; };
+		952C8BEA24877F76008CDD25 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		95D7B0D7237C0AEC00BA6DC8 /* Paxful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paxful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D7B0DA237C0AEC00BA6DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D7B0DC237C0AEC00BA6DC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952C8BE524877EDD008CDD25 /* BuyBitcoins */ = {
+			isa = PBXGroup;
+			children = (
+				952C8BE924877F19008CDD25 /* NetworkManager */,
+				952C8BE824877F0E008CDD25 /* DataModel */,
+				952C8BE624877F08008CDD25 /* BuyBitcoins.swift */,
+			);
+			path = BuyBitcoins;
+			sourceTree = "<group>";
+		};
+		952C8BE824877F0E008CDD25 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		952C8BE924877F19008CDD25 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				952C8BEA24877F76008CDD25 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		95D7B0CE237C0AEC00BA6DC8 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +135,7 @@
 		95D7B0EE237C0AFE00BA6DC8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				952C8BE524877EDD008CDD25 /* BuyBitcoins */,
 				95D7B10A237C1DE100BA6DC8 /* ChatView */,
 				95D7B0EF237C0B1300BA6DC8 /* WalletView.swift */,
 				95D7B0FB237C0FED00BA6DC8 /* WalletSubViews */,
@@ -249,11 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952C8BEB24877F76008CDD25 /* NetworkManager.swift in Sources */,
 				95D7B0F6237C0B4100BA6DC8 /* AffiliateView.swift in Sources */,
 				95D7B109237C110F00BA6DC8 /* NotificationMainSubView.swift in Sources */,
 				95D7B107237C110000BA6DC8 /* AffiliatesMainSubView.swift in Sources */,
 				95D7B0FA237C0B6E00BA6DC8 /* MainView.swift in Sources */,
 				95D7B0F4237C0B3100BA6DC8 /* AccountView.swift in Sources */,
+				952C8BE724877F08008CDD25 /* BuyBitcoins.swift in Sources */,
 				95D7B101237C10C000BA6DC8 /* WalletMainSubView.swift in Sources */,
 				95D7B10C237C1E1000BA6DC8 /* ChatMainView.swift in Sources */,
 				95D7B0DB237C0AEC00BA6DC8 /* AppDelegate.swift in Sources */,
